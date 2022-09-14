@@ -17,6 +17,8 @@ InpDetikSelesai = int(input('Detik : '))
 # Ubah waktu jadi detik (mirip-mirip sama UNIX timestamp)
 DetikMulai      = (InpJamMulai * 3600) + (InpMenitMulai * 60) + InpDetikMulai
 DetikSelesai    = (InpJamSelesai * 3600) + (InpMenitSelesai * 60) + InpDetikSelesai
+
+# Cari selang waktu
 DetikSelang     = DetikSelesai - DetikMulai
 
 # Cari Jam Selang
