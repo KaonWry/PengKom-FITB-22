@@ -33,16 +33,19 @@ MenitSelang     = str(MenitSelang)
 DetikSelang     = str(DetikSelang)
 
 # Output
-OutJam          = str(JamSelang + ' jam ')
-if JamSelang == 0 :
-    OutJam = ""
+if JamSelang    == '0' :
+    OutJam      = ' '
+else :
+    OutJam      = str(JamSelang + ' jam ')
 
-OutMenit        = str(MenitSelang + ' menit ')
-if MenitSelang == 0 :
-    OutMenit = ""
+if MenitSelang  == '0' :
+    OutMenit    = ' '
+else :
+    OutMenit    = str(MenitSelang + ' menit ')
 
-OutDetik        = str(DetikSelang + ' detik ')
-if DetikSelang == 0 :
-    OutDetik = ""
+if DetikSelang  == '0' :
+    OutDetik    = ' '
+else :
+    OutDetik    = str(DetikSelang + ' detik ')
 
 print('Tuan Riz berlari selama ' + OutJam + OutMenit + OutDetik)
