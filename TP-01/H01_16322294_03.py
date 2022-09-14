@@ -36,17 +36,17 @@ DetikSelang     = str(DetikSelang)
 
 # Output
 if JamSelang    == '0' :
-    OutJam      = ' '
+    OutJam      = ''
 else :
     OutJam      = str(JamSelang + ' jam ')
 
 if MenitSelang  == '0' :
-    OutMenit    = ' '
+    OutMenit    = ''
 else :
     OutMenit    = str(MenitSelang + ' menit ')
 
 if DetikSelang  == '0' :
-    OutDetik    = ' '
+    OutDetik    = ''
 else :
     OutDetik    = str(DetikSelang + ' detik ')
 
