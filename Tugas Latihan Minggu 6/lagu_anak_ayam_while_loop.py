@@ -3,7 +3,7 @@
 # Deskripsi : Program lagu anak ayam dengan while loop
 
 # Input data
-i = int(input('Anak ayam turunlah '))
+i = int(input('Anak ayam turunlah ')) - 1
 
 # Loop
 while (i >= 0) :
