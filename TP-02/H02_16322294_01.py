@@ -14,7 +14,9 @@ while (i < inpNum) :
     i += 1
 
 # Cek kesamaan jumlah faktor dengan bilangan input
-if (factorSum == inpNum) :
+if (inpNum < 0 or inpNum == 0) : 
+    print('Bilangan tersebut bukan bilangan sempurna')
+elif (factorSum == inpNum) :
     print('Bilangan tersebut adalah bilangan sempurna')
 else :
     print('Bilangan tersebut bukan bilangan sempurna')
