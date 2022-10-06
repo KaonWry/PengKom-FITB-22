@@ -11,7 +11,6 @@ factorSum = int(0)
 while (i < inpNum) :
     if (inpNum % i == 0) :
         factorSum += i
-    print(i, factorSum)
     i += 1
 
 # Cek kesamaan jumlah faktor dengan bilangan input

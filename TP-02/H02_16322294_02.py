@@ -13,10 +13,8 @@ biggerSum = int(0)
 i = int(2)
 while True :
     displayInput = str('Angka ke-' + str(i) + ': ')
-    numNow = int(input(displayInput))
-     
-# Sinpan angka sebelumnya
     numPast = numNow
+    numNow = int(input(displayInput))
 
 # Hitung jumlah kejadian angka sekarang lebih kecil dibanding angka sebelumnya
     if (numNow <= numPast) :
