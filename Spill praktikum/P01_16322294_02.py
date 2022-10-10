@@ -8,7 +8,7 @@
 # column : string
 
 # Input data
-seat = int(input('Masukan nomor antrian tiket : '))
+seat    = int(input('Masukan nomor antrian tiket : '))
 
 # Cari baris
 if (seat % 4 == 0) :
