@@ -24,6 +24,11 @@ print(f"5 provinsi yang paling jarang mengalami banjir : {placement}")
 maxBruh = inpDf[["Longsor","Banjir","Banjir Bandang","Gempa Bumi","Tsunami","Gelombang Pasang","Angin kencang","Gunung Meletus","Kebakaran Hutan","Kekeringan"]].max().tolist()
 i, c = np.where(inpDf == max(maxBruh))
 print(f"\n\nBencana yang paling banyak terjadi : {inpDf.columns[c][0]}")
+
+# Bencana tersedikit
+minbruh = inpDf[["Longsor","Banjir","Banjir Bandang","Gempa Bumi","Tsunami","Gelombang Pasang","Angin kencang","Gunung Meletus","Kebakaran Hutan","Kekeringan"]].min().tolist()
+i, c = np.where(inpDf == min(maxBruh))
+print(f"\n\nBencana yang paling sedikit terjadi : {inpDf.columns[c][0]}")
 print("\n")
 
 # Terbanyak persen
