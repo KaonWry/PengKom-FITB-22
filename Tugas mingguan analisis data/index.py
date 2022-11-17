@@ -41,3 +41,4 @@ for i in range(1, len(inpDf.columns)-1):
     amount = inpDf[bruh].max()
     percentage = amount/villages[provinceList.index(province)]
     print(f"{bruh} : {province} ({percentage:.2%} desa)")
+
